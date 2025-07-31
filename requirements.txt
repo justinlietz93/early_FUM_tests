@@ -1,0 +1,5 @@
+matplotlib # For the plotting library
+numpy # For the numerical operations
+scipy # For the scientific computations
+networkx # For the knowledge graph operations
+ripser # For persistent homology computations

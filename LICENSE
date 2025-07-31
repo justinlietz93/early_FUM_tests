@@ -1,0 +1,49 @@
+# Proprietary Research License
+
+**Copyright © 2025 Justin K. Lietz, Neuroca, Inc. All Rights Reserved.**
+
+## License Terms
+
+This repository contains proprietary research, methodologies, algorithms, and findings developed by Justin K. Lietz. All rights are reserved.
+
+### Restrictions
+
+**NO USE WITHOUT WRITTEN PERMISSION**: You may not use, copy, modify, distribute, or reference this research, code, methodologies, or findings without explicit written permission from Justin K. Lietz.
+
+### Conditional Permissions
+
+**WITH WRITTEN PERMISSION**: Use is permitted under the following conditions:
+
+1. **Required Citation**: Any use or reference must include proper attribution:
+   ```
+   Lietz, J.K. (2025). Mathematical Frameworks for Fully Unified Model Validation. 
+   Neuroca, Inc. Used with permission.
+   ```
+
+2. **Academic Citation**: For academic papers, presentations, or research:
+   ```
+   @software{fum_mathematical_frameworks_2025,
+     title={Mathematical Frameworks for Fully Unified Model Validation},
+     author={Lietz, Justin K.},
+     year={2025},
+     organization={Neuroca, Inc},
+     note={Used with permission of the author}
+   }
+   ```
+
+3. **Commercial Use**: Any commercial application requires separate licensing agreement.
+
+### Contact for Permissions
+
+For written permission requests, contact:
+- **Justin K. Lietz**
+- **Neuroca, Inc**
+- justin@neuroca.dev
+
+### Enforcement
+
+Unauthorized use of this research constitutes intellectual property infringement and may result in legal action. This license is governed by applicable intellectual property laws.
+
+---
+
+**Note**: This license ensures proper attribution while protecting the proprietary nature of potentially groundbreaking FUM research methodologies, including but not limited to: Self-Improvement Engine (SIE) stability analysis, Knowledge Graph Topological Data Analysis (TDA), multi-objective reward integration frameworks, RE-VGSP, and associated mathematical discoveries.

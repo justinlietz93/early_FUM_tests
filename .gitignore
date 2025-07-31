@@ -1,0 +1,21 @@
+# Environment Specific
+*.env
+venv/
+.venv/
+ENV/
+
+# Python Bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Scientific Data 
+*.npy
+*.npz
+
+# Pickle Files
+*.pkl
+
+# Results and Logs
+*/results/
+*/data/
