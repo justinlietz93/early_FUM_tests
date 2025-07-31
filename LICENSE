@@ -4,7 +4,7 @@
 
 ## License Terms
 
-This repository contains proprietary research, methodologies, algorithms, and findings developed by Justin K. Lietz. All rights are reserved.
+This repository contains novel research implementations, specific methodological combinations, empirical discoveries, and mathematical formulations developed by Justin K. Lietz. While individual techniques may have academic precedents, the specific implementations, combinations, parameter discoveries, and empirical validations represent original contributions. All rights are reserved.
 
 ### Restrictions
 
@@ -46,4 +46,4 @@ Unauthorized use of this research constitutes intellectual property infringement
 
 ---
 
-**Note**: This license ensures proper attribution while protecting the proprietary nature of potentially groundbreaking FUM research methodologies, including but not limited to: Self-Improvement Engine (SIE) stability analysis, Knowledge Graph Topological Data Analysis (TDA), multi-objective reward integration frameworks, RE-VGSP, and associated mathematical discoveries.
+**Note**: This license protects specific novel implementations and empirical discoveries, including but not limited to: the SIE multi-objective stability framework with specific parameter combinations (λ=0.001, scaling_target=10.0), the KG-TDA topological analysis methodology with M1/M2 metrics and demonstrated correlations (r=-0.8676, r=0.9967), multi-objective reward integration with proven stability conditions, and associated mathematical formulations and empirical validation protocols. Individual components may have academic precedents; the novel contributions lie in the specific combinations, mathematical formulations, empirical discoveries, and demonstrated performance characteristics.
