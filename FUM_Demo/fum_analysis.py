@@ -14,7 +14,7 @@ from scipy.sparse import csc_matrix
 import networkx as nx
 
 # FUM Modules
-from FUM_Demo.fum_ehtp import Introspection_Probe_Module #<-- Using the official EHTP module
+from fum_ehtp import Introspection_Probe_Module #<-- Using the official EHTP module
 
 class FUM_Analysis:
     """

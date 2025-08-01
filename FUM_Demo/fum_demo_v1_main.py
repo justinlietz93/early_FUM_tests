@@ -13,25 +13,25 @@ import numpy as np
 from tqdm import tqdm
 
 # --- FUM V2 Core Components (Final Refactored & Renamed Versions) ---
-from FUM_Demo.fum_substrate import Substrate
-from FUM_Demo.fum_stimulus import StimulusGenerator
-from FUM_Demo.fum_unified_temporal_encoder import StimulusEncoder
-from FUM_Demo.fum_sie import SelfImprovementEngine
-from FUM_Demo.fum_ehtp import Introspection_Probe_Module
-from FUM_Demo.fum_analysis import FUM_Analysis
-from FUM_Demo.fum_data_curation import DataCuration
-from FUM_Demo.fum_runtime_analysis import RuntimeAnalysis
-from FUM_Demo.fum_vgsp import apply_vgsp_updates # Corrected import
-from FUM_Demo.fum_structural_homeostasis import perform_structural_homeostasis
-from FUM_Demo.fum_validated_math import calculate_modulation_factor # Corrected import
-from FUM_Demo.logger import Logger
-from FUM_Demo.fum_visualizer import plot_network_graph
+from fum_substrate import Substrate
+from fum_stimulus import StimulusGenerator
+from fum_unified_temporal_encoder import StimulusEncoder
+from fum_sie import SelfImprovementEngine
+from fum_ehtp import Introspection_Probe_Module
+from fum_analysis import FUM_Analysis
+from fum_data_curation import DataCuration
+from fum_runtime_analysis import RuntimeAnalysis
+from fum_vgsp import apply_vgsp_updates # Corrected import
+from fum_structural_homeostasis import perform_structural_homeostasis
+from fum_validated_math import calculate_modulation_factor # Corrected import
+from logger import Logger
+from fum_visualizer import plot_network_graph
 
 # --- Parameters for Phase 1: Random Seed Sprinkling ---
 NUM_NEURONS = 1000 # Neurons in the connectome terrain. Sparsity increases with scale
 K_NEAREST_NEIGHBORS = 8 # 
-NUM_STIMULI_TO_PRESENT = 80 # Raw ASCII data stimuli, higher != better
-PATTERN_DURATION = 30 # ms
+NUM_STIMULI_TO_PRESENT = 100 # Raw ASCII data stimuli, higher != better
+PATTERN_DURATION = 10 # ms
 
 RUN_ID = f"phase1_FUM_Demo_run_{int(time.time())}"
 RESULTS_DIR = os.path.join("FUM_Demo_runs", RUN_ID)

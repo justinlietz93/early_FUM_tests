@@ -12,7 +12,7 @@ from scipy.sparse.csgraph import connected_components
 from sklearn.cluster import SpectralClustering
 
 # FUM Modules
-from FUM_Demo.fum_tda import TDA_Module
+from fum_tda import TDA_Module
 
 class Introspection_Probe_Module:
     """

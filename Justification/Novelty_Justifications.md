@@ -1,6 +1,6 @@
 # Declaration of Novelty and Inventive Concepts
-**Document Version:** 1.4
-**Date:** July 31, 2025
+**Document Version:** 1.4<br>
+**Date:** July 31, 2025<br>
 **Author:** Justin K. Lietz, Neuroca, Inc.
 
 ## Preamble

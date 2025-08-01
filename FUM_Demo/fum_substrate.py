@@ -10,7 +10,7 @@ import numpy as np
 from scipy.sparse import csc_matrix, find
 
 # FUM Modules
-from FUM_Demo.fum_initialization import create_knn_graph
+from fum_initialization import create_knn_graph
 
 class Substrate:
     """
