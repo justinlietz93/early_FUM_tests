@@ -1,4 +1,3 @@
-# FUM Demo
 numpy # For numerical computations
 networkx # For graph operations
 matplotlib # For plotting and visualizations
@@ -11,6 +10,3 @@ opencv-python # For image processing
 librosa # For audio processing
 persim # For persistent homology computations
 h5py # For saving FUM's brain
-
-# Custom Advanced Math Library
-statsmodels # For statistical models
