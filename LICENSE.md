@@ -32,7 +32,7 @@ This repository is available under two distinct licensing tracks:
 
 1. **Required Attribution**: All academic use must include proper citation:
    ```
-   Lietz, J.K. (2025). Mathematical Frameworks for Fully Unified Model Validation. 
+   Lietz, J.K. (2025). The Fully Unified Model: Cultivating Hyperintelligence in Cybernetic Organisms. 
    Neuroca, Inc. Academic Research License.
    ```
 
