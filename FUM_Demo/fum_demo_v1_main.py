@@ -13,19 +13,19 @@ import numpy as np
 from tqdm import tqdm
 
 # --- FUM V2 Core Components (Final Refactored & Renamed Versions) ---
-from Connectome.fum_substrate import Substrate
-from Connectome.fum_stimulus import StimulusGenerator
-from Connectome.fum_unified_temporal_encoder import StimulusEncoder
-from Connectome.fum_sie import SelfImprovementEngine
-from Connectome.fum_ehtp import Introspection_Probe_Module
-from Connectome.fum_analysis import FUM_Analysis
-from Connectome.fum_data_curation import DataCuration
-from Connectome.fum_runtime_analysis import RuntimeAnalysis
-from Connectome.fum_vgsp import apply_vgsp_updates # Corrected import
-from Connectome.fum_structural_homeostasis import perform_structural_homeostasis
-from Connectome.fum_validated_math import calculate_modulation_factor # Corrected import
-from Connectome.logger import Logger
-from Connectome.fum_visualizer import plot_network_graph
+from FUM_Demo.fum_substrate import Substrate
+from FUM_Demo.fum_stimulus import StimulusGenerator
+from FUM_Demo.fum_unified_temporal_encoder import StimulusEncoder
+from FUM_Demo.fum_sie import SelfImprovementEngine
+from FUM_Demo.fum_ehtp import Introspection_Probe_Module
+from FUM_Demo.fum_analysis import FUM_Analysis
+from FUM_Demo.fum_data_curation import DataCuration
+from FUM_Demo.fum_runtime_analysis import RuntimeAnalysis
+from FUM_Demo.fum_vgsp import apply_vgsp_updates # Corrected import
+from FUM_Demo.fum_structural_homeostasis import perform_structural_homeostasis
+from FUM_Demo.fum_validated_math import calculate_modulation_factor # Corrected import
+from FUM_Demo.logger import Logger
+from FUM_Demo.fum_visualizer import plot_network_graph
 
 # --- Parameters for Phase 1: Random Seed Sprinkling ---
 NUM_NEURONS = 1000 # Neurons in the connectome terrain. Sparsity increases with scale
@@ -33,8 +33,8 @@ K_NEAREST_NEIGHBORS = 8 #
 NUM_STIMULI_TO_PRESENT = 80 # Raw ASCII data stimuli, higher != better
 PATTERN_DURATION = 30 # ms
 
-RUN_ID = f"phase1_run_{int(time.time())}"
-RESULTS_DIR = os.path.join("runs", RUN_ID)
+RUN_ID = f"phase1_FUM_Demo_run_{int(time.time())}"
+RESULTS_DIR = os.path.join("FUM_Demo_runs", RUN_ID)
 
 # Hyperparameters for Valence-Gated Synaptic Plasticity (VGSP)
 ETA = 0.01 # Base learning rate
@@ -51,7 +51,7 @@ def main():
     This script guides the initial self-assembly of the FUM's UKG.
     """
     os.makedirs(RESULTS_DIR, exist_ok=True)
-    log_path = os.path.join(RESULTS_DIR, "run_log.txt")
+    log_path = os.path.join(RESULTS_DIR, "03_FUM_Demo_run_log.txt")
     logger = Logger(log_path)
     sys.stdout = logger
 
@@ -70,7 +70,7 @@ def main():
         analysis_module = FUM_Analysis(RESULTS_DIR, RUN_ID)
 
         # Visualization now takes the sparse matrix directly
-        plot_network_graph(substrate.W, "Initial k-NN Substrate", os.path.join(RESULTS_DIR, "00_initial_connectome.png"))
+        plot_network_graph(substrate.W, "Initial k-NN Substrate", os.path.join(RESULTS_DIR, "00_FUM_Demo_initial_connectome.png"))
 
         # --- Initial Network Validation ---
         # As per the Phase 1 documentation, verify initial network properties.
@@ -188,7 +188,7 @@ def main():
         }, "PHASE 1 SUMMARY")
 
         # 3. Save the final, foundational UKG
-        plot_network_graph(substrate.W, "Foundational UKG Structure", os.path.join(RESULTS_DIR, "phase1_final_graph.png"))
+        plot_network_graph(substrate.W, "Foundational UKG Structure", os.path.join(RESULTS_DIR, "01_FUM_Demo_final_connectome.png"))
         
         # 4. Generate the final performance dashboard
         analysis_module.create_dashboard()

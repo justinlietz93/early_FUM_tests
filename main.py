@@ -10,6 +10,7 @@ FUM Mathematical Frameworks Validation Runner
 Usage:
     python main.py --sie         # Run SIE stability validation
     python main.py --kgtda       # Run Knowledge Graph TDA validation
+    python main.py --fum         # Run FUM demo
     python main.py --all         # Run both validations
 """
 
@@ -82,12 +83,29 @@ def run_kgtda_validation():
     
     return 0
 
+def run_fum_demo():
+    """Run FUM demo."""
+    print("Running FUM Demo...")
+    
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    fum_demo_dir = os.path.join(script_dir, "FUM_Demo")
+    
+    # Run FUM demo
+    cmd = [sys.executable, "fum_demo_v1_main.py"]
+    result = subprocess.run(cmd, cwd=fum_demo_dir)
+    if result.returncode != 0:
+        return 1
+    
+    print("FUM demo completed successfully!")
+    return 0
+
 def main():
     parser = argparse.ArgumentParser(description='FUM Mathematical Frameworks Validation Runner')
     
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument('--sie', action='store_true', help='Run SIE stability validation')
     group.add_argument('--kgtda', action='store_true', help='Run Knowledge Graph TDA validation')
+    group.add_argument('--fum', action='store_true', help='Run FUM demo')
     group.add_argument('--all', action='store_true', help='Run both validations')
     
     args = parser.parse_args()
@@ -99,6 +117,8 @@ def main():
         return run_sie_validation()
     elif args.kgtda:
         return run_kgtda_validation()
+    elif args.fum:
+        return run_fum_demo()
     elif args.all:
         print("Running complete validation suite...\n")
         

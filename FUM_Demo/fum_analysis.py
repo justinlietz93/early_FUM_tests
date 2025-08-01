@@ -14,7 +14,7 @@ from scipy.sparse import csc_matrix
 import networkx as nx
 
 # FUM Modules
-from Connectome.fum_ehtp import Introspection_Probe_Module #<-- Using the official EHTP module
+from FUM_Demo.fum_ehtp import Introspection_Probe_Module #<-- Using the official EHTP module
 
 class FUM_Analysis:
     """
@@ -93,7 +93,7 @@ class FUM_Analysis:
         ax4.grid(True, alpha=0.2)
 
         plt.tight_layout(rect=[0, 0.03, 1, 0.95])
-        save_path = os.path.join(self.results_dir, "dashboard.png")
+        save_path = os.path.join(self.results_dir, "02_FUM_Demo_dashboard.png")
         plt.savefig(save_path, dpi=300)
         plt.close()
         print(f"Saved metrics dashboard to '{save_path}'")

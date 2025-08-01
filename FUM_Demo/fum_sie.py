@@ -10,7 +10,7 @@ import numpy as np
 from scipy.sparse import csc_matrix
 
 # --- FUM Modules ---
-from Connectome.fum_validated_math import calculate_modulation_factor
+from FUM_Demo.fum_validated_math import calculate_modulation_factor
 
 class SelfImprovementEngine:
     """
