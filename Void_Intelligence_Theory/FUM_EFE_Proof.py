@@ -72,4 +72,5 @@ print('\nT_00 (energy density from voids/gradients):')
 sp.pprint(sp.simplify(T[0,0]))
 
 print('\nDiff_00 (void contribution to EFE):')
+
 sp.pprint(sp.simplify(diff[0,0]))
