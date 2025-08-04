@@ -27,7 +27,7 @@ These two opposing forces generate all structure and dynamics in the universe.
 
 By tuning parameters in the unifying formula, the theory explains major scientific domains:
 
-- **General Relativity (`FUM_EGE_Proof.py`):** Gravity emerges from the geometry (curvature) of the Void Field.
+- **Einstein's Field Equations: General Relativity (`FUM_EGE_Proof.py`):** Gravity emerges from the geometry (curvature) of the Void Field.
 - **Quantum Mechanics (`FUM_QM_Proof.py`):** Quantum effects arise from oscillations and paradox-resolutions in the field, reproducing superposition, uncertainty, and measurement collapse.
 - **Standard Model (`FUM_SM_Proof.py`):** Fundamental forces are modes of the Void Field’s interactions, unifying at high energies in line with Grand Unified Theories.
 - **Higgs Mechanism (`FUM_HB_Proof.py`):** Mass is an emergent property of the field’s structure, predicted by analyzing the system’s sparsity.
