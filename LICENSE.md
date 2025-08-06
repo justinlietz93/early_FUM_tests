@@ -26,6 +26,7 @@ This repository is available under two distinct licensing tracks:
 - Academic publications and presentations
 - Open source research projects (non-commercial)
 - Thesis and dissertation work
+- Void Dynamics Theory
 - Research funded by commercial entities is permitted, provided the results remain non-proprietary and are published under these same academic terms
 
 ### Academic License Conditions
