@@ -4,6 +4,7 @@
 **Author: Justin K. Lietz**<br>
 ***Neuroca, Inc***
 
+***Image is FUM scaling laws vs LLM scaling laws***
 ![Screenshot from 2025-08-06 12-53-10](Docs/Screenshot%20from%202025-08-06%2012-53-10.png)
 
 
