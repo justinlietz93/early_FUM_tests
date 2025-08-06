@@ -4,6 +4,9 @@
 **Author: Justin K. Lietz**<br>
 ***Neuroca, Inc***
 
+![Screenshot from 2025-08-06 12-53-10](Docs/Screenshot%20from%202025-08-06%2012-53-10.png)
+
+
 *Note: These frameworks represent the foundational validation work. Subsequent private testing has led to substantial improvements and additional discoveries including self-organization and self-repair mechanisms, unified integration of SNNs with SIE and Knowledge Graph TDA findings, and the development of Resonance Enhanced Valence Gated Synaptic Plasticity (REVGSP).*
 
 ## What This Project Does
