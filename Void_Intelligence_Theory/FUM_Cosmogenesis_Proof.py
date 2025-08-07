@@ -27,7 +27,7 @@ from FUM_Void_Debt_Modulation import VoidDebtModulation
 # 4. The Child Universe is born with the Parent's structure, but it also inherits
 #    the Parent's full Cosmic Debt.
 # 5. This inherited Debt becomes the primary force shaping the Child Universe through
-#    universal void dynamics: RE-VGSP (restorative) vs GDSP (debt-driven voids).
+#    universal void dynamics: RE-VGSP (creative) vs GDSP (restorative).
 # 6. The final, stable sparsity of the Child Universe is the definitive proof.
 #
 
@@ -176,4 +176,5 @@ def main():
     print(f"\nCosmogenesis proof complete. Results available for orchestration.")
 
 if __name__ == "__main__":
+
     main()
