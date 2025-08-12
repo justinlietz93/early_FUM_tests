@@ -3,7 +3,7 @@
 **Originally validated: April 2, 2025**<br>
 **Author: Justin K. Lietz**<br>
 ***Neuroca, Inc***<br>
-[Link to see the Physics:](https://github.com/justinlietz93/Prometheus_FUVDM/tree/main/fum_rt)
+[Link to see the Physics: https://github.com/justinlietz93/Prometheus_FUVDM/tree/main/fum_rt](https://github.com/justinlietz93/Prometheus_FUVDM/tree/main/fum_rt)
 
 ***Image is FUM scaling laws vs LLM scaling laws***
 ![Screenshot from 2025-08-06 12-53-10](Docs/Screenshot%20from%202025-08-06%2012-53-10.png)
